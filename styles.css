@@ -209,6 +209,7 @@ button {
   height: 100%;
 }
 
+/* ----------------- Succes-stories Section ---------------- */
 .success-stories {
   background-color: #a1d683;
   padding: 5% 15%;
@@ -256,6 +257,104 @@ button {
 
 .stories-carousel img {
   width: 10rem;
+}
+
+/* ----------------- How-does-it-work Section ---------------- */
+.how-does-it-work {
+  background-color: #fffbf7;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.how-does-it-work .title {
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
+  margin-bottom: 8px;
+}
+
+.how-does-it-work .description {
+  max-width: 60%;
+  color: #46484c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.how-does-it-work button {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 12px 12px 6px 12px;
+  height: 45px;
+  margin-left: 0;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.how-does-it-work .steps {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.how-does-it-work .steps .card-step .card-step-image {
+  position: relative;
+  height: 350px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body {
+  padding: 25px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body h3 {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 400;
+  text-align: center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /** dispositivos móviles en vista viewport (vertical) */
