@@ -138,3 +138,8 @@ button {
 .publish > form {
   display: flex;
 }
+
+/* ----------------- Features Section ---------------- */
+.features {
+  display: grid;
+}
