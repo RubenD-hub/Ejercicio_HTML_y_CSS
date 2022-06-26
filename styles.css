@@ -1,3 +1,10 @@
+/* ----------------- Global Section ---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fffbf7;
 }
@@ -9,7 +16,7 @@ h1 {
 
 p {
   color: #8b8b8bcc;
-  font-family: verdana;
+  font-family: Verdana;
   font-size: 20px;
 }
 
@@ -18,8 +25,42 @@ button {
   background-color: #025157;
 }
 
+/* ----------------- Header Section ---------------- */
 .header {
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 40px 20px 0;
+  font-size: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.header li {
+  display: inline;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
 }
