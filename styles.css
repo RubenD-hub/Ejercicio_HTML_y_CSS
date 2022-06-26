@@ -25,7 +25,15 @@ button {
   background-color: #025157;
 }
 
-/* ----------------- Header Section ---------------- */
+/* ----------------- Fixed-header Section ---------------- */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
 .header {
   margin: 40px 20px 0;
   font-size: 0;
