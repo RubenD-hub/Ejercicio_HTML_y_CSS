@@ -389,9 +389,10 @@ button {
     margin-top: 10px;
   }
 
-  .publish > h3 {
+  .publish > h3,
+  .success-stories > .overview > h2 {
     font-size: 25px;
-    line-height: 1.2;
+    line-height: 30px;
   }
 
   .features {
@@ -402,6 +403,55 @@ button {
 
   .feature-image {
     display: none;
+  }
+
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
+
+  .success-stories > .overview {
+    padding-right: unset;
+  }
+
+  .success-stories .stories-carousel .card {
+    min-height: 832px;
+  }
+
+  .success-stories .stories-carousel .card .card-media img {
+    max-height: unset;
+  }
+
+  .how-does-it-work {
+    padding: 5% 15px;
+  }
+
+  .how-does-it-work .description {
+    max-width: unset;
+  }
+
+  .how-does-it-work .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .how-does-it-work .steps .card-step {
+    margin-left: unset;
+    margin-right: unset;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+  }
+
+  .how-does-it-work .steps .card-step .card-step-image {
+    position: initial;
+    height: unset;
+  }
+
+  .how-does-it-work .steps .card-step .card-step-body h3 {
+    text-align: left;
+    margin-top: 30px;
   }
 }
 
