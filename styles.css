@@ -10,8 +10,10 @@ body {
 }
 
 h1 {
-  color: #46484c;
-  text-align: center;
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
 }
 
 p {
@@ -60,7 +62,7 @@ button {
 }
 
 .logo > img {
-  width: 100%;
+  width: 15%;
 }
 
 .navbar {
