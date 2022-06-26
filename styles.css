@@ -100,6 +100,10 @@ button {
   text-align: center;
 }
 
+.intro > img {
+  width: 70%;
+}
+
 /* ----------------- Promo Section ---------------- */
 .promo {
   display: flex;
@@ -211,6 +215,18 @@ button {
   .navbar,
   .actions {
     display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .main {
+    margin-top: 130px;
+  }
+
+  .banner > img {
+    width: 100%;
   }
 }
 
