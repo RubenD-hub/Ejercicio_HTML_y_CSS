@@ -141,5 +141,8 @@ button {
 
 /* ----------------- Features Section ---------------- */
 .features {
+  background-color: #025157;
+  padding: 5% 10%;
   display: grid;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
 }
