@@ -228,6 +228,15 @@ button {
   .banner > img {
     width: 100%;
   }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .promo-video > video {
+    width: 100%;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
