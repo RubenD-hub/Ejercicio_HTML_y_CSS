@@ -66,6 +66,7 @@ button {
 }
 
 .navbar {
+  background-color: #fffbf7;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -359,9 +360,9 @@ button {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
-  .actions {
-    display: none;
+  .actions,
+  .navbar {
+    text-align: center;
   }
 
   h1 {
@@ -461,6 +462,10 @@ button {
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .actions,
+  .navbar {
+    text-align: center;
+  }
 }
 
 /** dispositivos grandes (desktops) */
