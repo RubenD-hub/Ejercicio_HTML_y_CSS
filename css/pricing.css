@@ -93,13 +93,13 @@ body {
   font-weight: 900;
 }
 
-.faq a {
-  color: #6abf4b;
-}
-
-.faq .container {
+.faq .accordion-header {
   background-color: white;
   border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq .accordion .accordion-body a {
+  color: #6abf4b;
 }
 
 /** dispositivos móviles en vista viewport (vertical) */
