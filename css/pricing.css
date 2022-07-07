@@ -56,6 +56,7 @@ body {
   border-radius: 5px;
 }
 
+/* ----------------- Header Section ---------------- */
 .header {
   margin-top: 285px;
   text-align: center;
@@ -73,6 +74,32 @@ body {
   max-width: 680px;
   margin: 0 auto;
   margin-bottom: 72px;
+}
+
+/* ----------------- FAQ Section ---------------- */
+.faq {
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+
+.faq h2 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+}
+
+.faq h2 > button {
+  color: #025157;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.faq a {
+  color: #6abf4b;
+}
+
+.faq .container {
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 /** dispositivos móviles en vista viewport (vertical) */
