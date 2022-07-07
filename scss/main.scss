@@ -200,3 +200,57 @@
     }
   }
 }
+
+/* -------------------------- Footer Section -------------------------- */
+.footer {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+
+  p {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: #025157;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 20px;
+      font-size: 18px;
+
+      a {
+        color: #4a4a4a;
+        text-decoration: none;
+      }
+    }
+  }
+  .social {
+    margin-top: 14px;
+    margin-left: 28px;
+    display: inline-block;
+
+    .social-icon {
+      margin-right: 10px;
+      position: relative;
+
+      a {
+        color: #6abf4b;
+        text-decoration: none;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
