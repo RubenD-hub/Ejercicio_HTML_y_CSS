@@ -1,9 +1,46 @@
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+}
+
 /** main.scss */
 /* -------------------------- Blog Section -------------------------- */
 .blog {
   background-color: #ffffff;
   max-width: unset;
   padding: 5% 10%;
+}
+.blog .process-list {
+  margin: 40px 0 36px 0;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
