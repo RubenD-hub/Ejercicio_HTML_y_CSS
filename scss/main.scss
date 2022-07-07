@@ -1,6 +1,9 @@
 /** main.scss */
+@use "global" as *;
+
+/* -------------------------- Blog Section -------------------------- */
 .blog {
-  background-color: #ffffff;
+  background-color: $white;
   max-width: unset;
   padding: 5% 10%;
 }
