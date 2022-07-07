@@ -121,3 +121,27 @@
     }
   }
 }
+
+/* -------------------------- Try-it Div -------------------------- */
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+
+  & > h2 {
+    color: #025157;
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+  }
+
+  & > p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .signup-form {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}

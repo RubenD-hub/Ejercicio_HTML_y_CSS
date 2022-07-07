@@ -102,4 +102,25 @@
   color: #4a4a4a;
 }
 
+/* -------------------------- Try-it Div -------------------------- */
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+.try-it > h2 {
+  color: #025157;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+.try-it > p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.try-it .signup-form {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */

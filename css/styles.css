@@ -22,9 +22,31 @@ p {
   font-size: 20px;
 }
 
+form {
+  height: 55px;
+}
+
+input,
+button {
+  height: 100%;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+}
+
 button {
   color: #fff;
   background-color: #025157;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
 }
 
 /* ----------------- Fixed-header Section ---------------- */
