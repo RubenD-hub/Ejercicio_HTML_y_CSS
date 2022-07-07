@@ -56,6 +56,25 @@ body {
   border-radius: 5px;
 }
 
+.header {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.header p {
+  color: #46484c;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
   .actions,
